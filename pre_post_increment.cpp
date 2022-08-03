@@ -16,6 +16,10 @@ int main() {
 	post = y++;
 	std::cout << "Using post increment, post is equal to " << post << " and x is " << x << "\n";
 
+	const std::string name = "Nnaemeka";
+	//name = "Chiera";
+
+	std::cout << "My name is " << name << "\n";
 
 	return 0;
 }
