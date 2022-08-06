@@ -7,7 +7,7 @@ std::string checker(int mark) {
 		return "B";
 	} else if (mark < 60 && mark >= 0 ) {
 		return "F";
-	} else { return "Invalid input";}
+	} else { return "Invalid input"; }
 }
 
 int main() {
